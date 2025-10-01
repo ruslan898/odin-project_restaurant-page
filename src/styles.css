@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -9,6 +15,15 @@ body {
   font-family: Arial, sans-serif;
   padding: 2rem;
   font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+}
+
+h2, p {
+  margin: 2rem;
 }
 
 .header {
@@ -46,4 +61,8 @@ body {
 
 .btn:hover {
   transform: scale(1.1);
+}
+
+#content main, #content header {
+  margin-bottom: 4rem;
 }
