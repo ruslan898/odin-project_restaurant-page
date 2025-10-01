@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #77790c;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+.header {
+  margin-bottom: 7rem;
+}
+
+.img {
+  display: block;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.text {
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn {
+  min-width: 15rem;
+  padding: 0.2em;
+  background-color: #555404;
+  border-radius: 8px;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
